@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/files">
+        <file>castle.png</file>
+        <file>gametitle.png</file>
+        <file>player_1_title.png</file>
+        <file>player_2_title.png</file>
+        <file>play_button.png</file>
+        <file>bush_2.png</file>
+        <file>castle_2.png</file>
+        <file>woods.png</file>
+        <file>housing.png</file>
+        <file>stonecave.png</file>
+        <file>blue_castle.png</file>
+        <file>blue_house.png</file>
+        <file>red_house.png</file>
+        <file>dock.png</file>
+        <file>water.png</file>
+        <file>blue_dock.png</file>
+        <file>blue_mine.png</file>
+        <file>red_dock.png</file>
+        <file>red_mine.png</file>
+        <file>berrybush_1_worker.png</file>
+        <file>berrybush_2_worker.png</file>
+        <file>berrybush_3_worker.png</file>
+        <file>blue_dock_workers_1.png</file>
+        <file>blue_dock_workers_2.png</file>
+        <file>blue_dock_workers_3.png</file>
+        <file>blue_mine_workers_1.png</file>
+        <file>blue_mine_workers_2.png</file>
+        <file>blue_mine_workers_3.png</file>
+        <file>red_dock_workers_1.png</file>
+        <file>red_dock_workers_2.png</file>
+        <file>red_dock_workers_3.png</file>
+        <file>red_mine_workers_1.png</file>
+        <file>red_mine_workers_2.png</file>
+        <file>red_mine_workers_3.png</file>
+    </qresource>
+</RCC>

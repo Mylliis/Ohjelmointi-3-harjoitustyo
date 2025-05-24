@@ -1,0 +1,15 @@
+#ifndef RESOURCEMAPS_H
+#define RESOURCEMAPS_H
+#include "core/basicresources.h"
+
+namespace aleksi{
+
+namespace student_resource_maps{
+
+
+
+}
+
+}
+
+#endif // RESOURCEMAPS_H

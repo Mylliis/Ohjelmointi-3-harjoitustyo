@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>popup_dialog</class>
+ <widget class="QDialog" name="popup_dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>379</width>
+    <height>265</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 0, 0);</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>381</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Sans CJK JP</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Tile_Type</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_1">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Mono</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(62, 0, 0);
+color: rgb(255, 170, 0);
+selection-background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>WORKER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>70</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Mono</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(62, 0, 0);
+color: rgb(255, 170, 0);
+selection-background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>MINER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>140</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(62, 0, 0);
+color: rgb(255, 170, 0);
+selection-background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Upgrade headquarters</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="worker_resource_1">
+   <property name="geometry">
+    <rect>
+     <x>38</x>
+     <y>97</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Mono</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(211, 141, 0);</string>
+   </property>
+   <property name="text">
+    <string>gold_amt</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="miner_resource_1">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>100</y>
+     <width>59</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Mono</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(211, 141, 0);</string>
+   </property>
+   <property name="text">
+    <string>gold_amt</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="worker_resource_2">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>97</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Mono</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(211, 141, 0);</string>
+   </property>
+   <property name="text">
+    <string>food_amt</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="miner_resource_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>97</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Mono</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(211, 141, 0);</string>
+   </property>
+   <property name="text">
+    <string>food_amt</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>341</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hq_resource_1">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>190</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Mono</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(211, 141, 0);</string>
+   </property>
+   <property name="text">
+    <string>x gold </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hq_resource_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>190</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Mono</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(211, 141, 0);</string>
+   </property>
+   <property name="text">
+    <string>x food</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>341</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>210</y>
+     <width>381</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(211, 141, 0);</string>
+   </property>
+   <property name="text">
+    <string>REQUIRED WORKER TYPE NOT AVAILABLE!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="send_worker_btn">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>110</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(62, 0, 0);
+color: rgb(255, 170, 0);
+selection-background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Send worker_type</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="reward_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>381</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Sans CJK JP</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Gain: x thing</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="notice_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>381</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Sans CJK JP</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Notice_label: type text here</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="notice_label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>70</y>
+     <width>381</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Sans Mono CJK JP</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Notice_label_2: type text here</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
